@@ -1,5 +1,25 @@
-import express from "express";
-const routes = express.Router();
+import {Router} from "express";
+import {SettingsController} from "./controllers/SettingsController";
+
+const routes = Router();
+
+
+const settingsController = new SettingsController();
+
+routes.post("/settings", settingsController.create);
+
+routes.get("/settings", settingsController.index);
+
+
+
+
+
+
+
+
+
+
+
 
 routes.get("/", (request, response) => {
     return response.status(200).json({
@@ -19,4 +39,4 @@ return response.status(201).json({
 });
 
 
-export default routes;
+export {routes};
