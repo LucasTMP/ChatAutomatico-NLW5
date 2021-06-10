@@ -26,7 +26,7 @@ export class CreateSettings1619120791396 implements MigrationInterface {
                     default:"now()",
                 },
                 {
-                    name:"created-at",
+                    name:"created_at",
                     type:"timestamp",
                     default:"now()",
                 },

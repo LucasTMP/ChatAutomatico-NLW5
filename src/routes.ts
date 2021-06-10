@@ -1,9 +1,10 @@
 import {Router} from "express";
 import {SettingsController} from "./controllers/SettingsController";
+import { UsersController } from "./controllers/UsersControllers";
 
 const routes = Router();
 
-
+const usersController = new UsersController();
 const settingsController = new SettingsController();
 
 routes.post("/settings", settingsController.create);
@@ -11,6 +12,8 @@ routes.post("/settings", settingsController.create);
 routes.get("/settings", settingsController.index);
 
 
+
+routes.post("/users", usersController.create);
 
 
 
