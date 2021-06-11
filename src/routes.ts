@@ -37,7 +37,7 @@ routes.post("/", (request, response) =>{
 const {Status} = request.body;
 
 return response.status(201).json({
-    Msg : "Usuario Criado com sucesso",
+    Msg : "Usuário Criado com sucesso",
     Status : Status
 })
 
