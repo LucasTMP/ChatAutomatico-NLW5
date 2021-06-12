@@ -24,7 +24,29 @@ document.querySelector("#start_chat").addEventListener("click", (event) => {
             }else{
                 console.log(call);
             }
-        })
+        });
+
+        socket.on("client_list_all_messages", message => {
+            
+            var template_cliente = document.getElementById("message-user-template").innerHTML;
+            var template_admin = document.getElementById("admin-template").innerHTML;
+
+            message.forEach(message => {
+                if(message.admin_id === null){
+                    const rendered = Mustache.render(template_cliente, {
+                        message: message.text,
+                        email
+                    })
+                    document.getElementById("messages").innerHTML += rendered;
+                }else{
+                    const rendered = Mustache.render(template_admin, {
+                        message_admin: message.text
+                    })
+                    document.getElementById("messages").innerHTML += rendered;
+                }
+            });
+
+        });
     })
 
 });
