@@ -117,6 +117,11 @@
 
     function closeChat() {
       chat.style.display = "none";
+      const chat_in_support = document.getElementById("chat_in_support");
+      chat_in_support.style.display = "none";
+
+      const btn_support = document.getElementById("btn_support");
+      btn_support.style.display = "flex";
     }
 
     function keyUpTextHelp(event) {
