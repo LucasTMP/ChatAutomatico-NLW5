@@ -25,7 +25,7 @@ document.querySelector("#start_chat").addEventListener("click", (event) => {
       if (err) {
         console.err(err);
       } else {
-        console.log(call);
+        //console.log(call);
       }
     });
   });
