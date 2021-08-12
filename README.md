@@ -9,7 +9,7 @@
   <h1 align="center">ChatAutomatico-NLW5</h1>
 <h3 align="center">Em desenvolvimento</h3>
 <details open="open">
-  <summary><b>Índice de Conteúdos</b></summary>
+  <summary><b>Índices de Conteúdos</b></summary>
   <ol>
     <li>
       <a href="#Sobre-o-projeto">Sobre o Projeto</a>
