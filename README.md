@@ -7,7 +7,7 @@
 [![Lint Code Base](https://github.com/LucasTMP/ChatAutomatico-NLW5/actions/workflows/linter.yml/badge.svg)](https://github.com/LucasTMP/ChatAutomatico-NLW5/actions/workflows/linter.yml)
 
   <h1 align="center">ChatAutomatico-NLW5</h1>
-<h3 align="center">Em desenvolvimento</h3>
+<h3 align="center">Ems desenvolvimento</h3>
 <details open="open">
   <summary><b>Índices de Conteúdos</b></summary>
   <ol>
