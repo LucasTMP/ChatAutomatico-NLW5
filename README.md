@@ -6,7 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Lint Code Base](https://github.com/LucasTMP/ChatAutomatico-NLW5/actions/workflows/linter.yml/badge.svg)](https://github.com/LucasTMP/ChatAutomatico-NLW5/actions/workflows/linter.yml)
 
-  <h1 align="center">ChatAutomatico-NLW5</h1>
+  <h1 align="center">ChatAutomatico NLW5</h1>
 <h3 align="center">Ems desenvolvimento</h3>
 <details open="open">
   <summary><b>Índices de Conteúdos</b></summary>
@@ -97,7 +97,7 @@ Após utilizar o comando NPM START, basta abrir o seu browser e entrar no endpoi
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/LucasTMP/ChatAutomatico-NLW5/blob/master/src/img/img3.JPG"> 
     <br>
-    <em>Chat de conversa do cliente para o atendente.</em>
+    <em>Chat de conversa do cliente com o atendente.</em>
 </p>
 <hr>
 <p align="center" width="100%">

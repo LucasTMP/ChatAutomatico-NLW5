@@ -17,12 +17,12 @@ class UsersService {
     async create(email: string) {
 
 
-        const usersAlreadyExists = await this.usersRepository.findOne({
+        const usersAlreadyValid = await this.usersRepository.findOne({
             email
         })
 
-        if (usersAlreadyExists) {
-            return usersAlreadyExists;
+        if (usersAlreadyValid) {
+            return usersAlreadyValid;
         };
 
 

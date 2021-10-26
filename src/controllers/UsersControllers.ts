@@ -7,15 +7,15 @@ import { UsersService } from "../services/UsersService";
 class UsersController {
 
 
-    async create(request: Request, response: Response): Promise<Response>{
+    async create(req: Request, res: Response): Promise<Response>{
 
-        const { email } = request.body;
+        const { email } = req.body;
 
         const userService = new UsersService();
 
         const user = await userService.create(email);
 
-        return response.status(201).json(user)
+        return res.status(201).json(user)
 
     };
 
